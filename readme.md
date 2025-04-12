@@ -59,7 +59,7 @@ This Python script allows you to bulk-add events to your Google Calendar by read
 
 The script expects a JSON file containing a single top-level key `"events"` which holds a list of event objects. Each event object should have the following structure:
 
-```json
+```python
 {
     "events": [
         {
